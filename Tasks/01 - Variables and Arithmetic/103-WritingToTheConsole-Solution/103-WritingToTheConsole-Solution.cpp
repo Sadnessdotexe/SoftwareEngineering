@@ -24,7 +24,7 @@ int main()
 
     // TASK(b) - Use printf to display the value of the variable area. Look at the lecture slides and find out how to limit this to 3 decimal places
     // SOLUTION
-    printf("The area = %5.3f\n", area);     //I chose 5 for a field width. Other values are also fine
+    printf("The area = %.3f\n", area);     //I chose 5 for a field width. Other values are also fine
 
     // You can output complex strings to the terminal
     int p = 3;
